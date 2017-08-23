@@ -8,7 +8,6 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" Plugin 'flazz/vim-colorschemes'
 Plugin 'juicemia/vim-colors'
 Plugin 'scrooloose/nerdTree'
 Plugin 'scrooloose/nerdcommenter'
