@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-sources=$(ls -1 | grep -v init | awk '{ print $NF }')
+sources=$(ls -1 | grep -v init | grep -vi license | awk '{ print $NF }')
 scripts=$(ls -1 bin/)
 
 dryrun=$1
